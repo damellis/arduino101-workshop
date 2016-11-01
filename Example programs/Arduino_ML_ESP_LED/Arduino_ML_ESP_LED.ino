@@ -24,6 +24,7 @@ void loop() {
   Serial.print("\t");
   Serial.print(az);
   Serial.println();
+  delay(10);
   
    // Check for a valid prediction.
   int val = Serial.parseInt();

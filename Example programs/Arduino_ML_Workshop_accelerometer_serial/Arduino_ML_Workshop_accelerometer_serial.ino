@@ -16,4 +16,5 @@ void loop() {
   Serial.print("\t");
   Serial.print(az);
   Serial.println();
+  delay(10);
 }

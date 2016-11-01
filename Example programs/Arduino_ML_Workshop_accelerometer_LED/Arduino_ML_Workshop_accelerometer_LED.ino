@@ -29,4 +29,6 @@ void loop() {
     digitalWrite(9, LOW);
     digitalWrite(10,HIGH);
   }
+
+  delay(10);
 }
